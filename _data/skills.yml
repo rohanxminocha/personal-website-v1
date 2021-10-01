@@ -22,7 +22,7 @@ tools:
   - item: MongoDB
   - item: Jupyter Notebook
  
- libraries:
+libraries:
   - item: pandas
   - item: NumPy
   - item: Matplotlib
@@ -30,4 +30,4 @@ tools:
   - item: rgdax
   - item: mailR
   - item: stringi
-  
+ 
