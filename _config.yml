@@ -1,8 +1,8 @@
 # Site settings
 name: Rohan Minocha
-title: Rohan Minocha | student, developer, aspiring change-maker
+title: Rohan Minocha
 description: studying Computer Science @ University of Waterloo
-url: https://rohanxminocha.github.io/
+url: https://rohanminocha.com/
 baseurl: ''
 email: rminocha@uwaterloo.ca
 cover: https://rohanxminocha.github.io/img/og.png
