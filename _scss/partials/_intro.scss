@@ -2,7 +2,7 @@
   padding: 120px 100px;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;*/
   justify-content: space-around;
   max-width: 1440px;
   margin: 0 auto;
@@ -17,18 +17,18 @@
   }
 
   &__hello, &__tagline {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     @include desktop {
-      font-size: 2.25rem;
-    }
-    @include tablet {
       font-size: 2rem;
     }
-    @include phablet {
+    @include tablet {
       font-size: 1.75rem;
     }
-    @include small-mobile {
+    @include phablet {
       font-size: 1.5rem;
+    }
+    @include small-mobile {
+      font-size: 1.25rem;
     }
     @include tiny-mobile {
       font-size: 1.4rem;
