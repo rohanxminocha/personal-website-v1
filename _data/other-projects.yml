@@ -1,6 +1,6 @@
 - name: Cryptocurrency Trading Bot
   url: https://github.com/rohanxminocha/crypto-trading-bot
-  description: A Cryptocurrency Trading Bot to trade the Ethereum - CAD pair on the GDAX exchange through their API.
+  description: A Cryptocurrency Trading Bot to trade the ETH - CAD pair on the GDAX exchange through their API.
   used:
     - thing: R
     - thing: VS Code
@@ -9,7 +9,7 @@
     - thing: stringi
 
 - name: Credit Card Fraud Detection System
-  url: https://github.com/rohanxminocha/credit-card-fraud-detection/
+  url: https://github.com/rohanxminocha/credit-card-fraud-detection
   description: A Credit Card Fraud Detection System implemented using Machine Learning with the help of k-nearest neighbors algorithm and k-means clustering.
   used:
     - thing: Python
