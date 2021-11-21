@@ -43,7 +43,7 @@
     a {
       position: relative;
       display: inline-block;
-      color: $blue !important;
+      color: $yellow !important;
       text-transform: uppercase;
       font-weight: 700;
       margin: 0 15px;
@@ -57,7 +57,7 @@
         left: 0;
         width: 100%;
         height: 1px;
-        background: $blue;
+        background: $yellow;
         content: '';
         opacity: 0;
         transition: height 0.3s, opacity 0.3s, transform 0.3s;
