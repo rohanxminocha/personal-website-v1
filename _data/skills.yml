@@ -4,11 +4,9 @@ languages:
   - item: Java
   - item: R
   - item: SQL
-  - item: Swift
   - item: HTML
   - item: CSS/Sass
   - item: JavaScript
-  - item: Racket
 
 frameworks:
   - item: Django
