@@ -1,7 +1,7 @@
 {
-  "name": "rohanminocha.com",
+  "name": "rohanminocha.me",
   "version": "0.0.0",
-  "description": "student + developer",
+  "description": "a student, developer, aspiring change-maker",
   "repository": {
     "type": "git",
     "url": "https://github.com/rohanxminocha/rohanxminocha.github.io"
@@ -12,7 +12,7 @@
     "start": "gulp serve --watch",
     "build": "gulp build"
   },
-  "author": "Rohan Minocha",
+  "author": "Brittany Chiang",
   "license": "ISC",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
