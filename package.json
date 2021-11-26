@@ -4,9 +4,9 @@
   "description": "a student, developer, aspiring change-maker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rohanminochaa/rohanminochaa.github.io"
+    "url": "https://github.com/rohanxminocha/rohanxminocha.github.io"
   },
-  "homepage": "https://github.com/rohanminochaa/rohanminochaa.github.io",
+  "homepage": "https://github.com/rohanxminocha/rohanxminocha.github.io",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
