@@ -1,5 +1,7 @@
 # My Personal Website
 
-Get to know me better [here](https://rohanxminocha.github.io/)!
+Get to know me better <a href="https://rohanxminocha.github.io/" target="_blank">here</a>!
 
-<a href="https://rohanxminocha.github.io/"><img src="https://github.com/rohanxminocha/rohanxminocha.github.io/blob/master/img/personalwebsite.png" /></a>
+<a href="https://rohanxminocha.github.io/" target=”_blank”>
+  <img src="https://github.com/rohanxminocha/rohanxminocha.github.io/blob/master/img/personalwebsite.png" />
+</a>
