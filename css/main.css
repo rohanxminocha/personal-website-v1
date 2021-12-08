@@ -171,7 +171,7 @@ strong{
     flex-shrink:0;
     width:200px;
     margin-right:70px;
-    color:#007bff;
+    color:#eba830;
     text-transform:uppercase;
     text-align:right;
     font-weight:700;
@@ -592,12 +592,12 @@ strong{
     display:inline-block;
     padding:2px 3px;
     text-decoration:none;
-    -webkit-box-shadow:inset 0 -3px 0 #007bff;
-    box-shadow:inset 0 -3px 0 #007bff
+    -webkit-box-shadow:inset 0 -3px 0 #eba830;
+    box-shadow:inset 0 -3px 0 #eba830
 }
 .intro__contact .highlight-link:hover{
-    -webkit-box-shadow:inset 0 -33px 0 0 #007bff;
-    box-shadow:inset 0 -33px 0 0 #007bff;
+    -webkit-box-shadow:inset 0 -33px 0 0 #eba830;
+    box-shadow:inset 0 -33px 0 0 #eba830;
     color:#fff
 }
 .skills .skillz{
@@ -846,8 +846,8 @@ strong{
     font-weight:700;
     padding:2px 7px;
     border-radius:3px;
-    color:#007bff;
-    border:1px solid #007bff;
+    color:#eba830;
+    border:1px solid #eba830;
     background:0 0
 }
 .other-projects .project__used__item:first-of-type{
@@ -920,7 +920,7 @@ strong{
 .footer__links a{
     position:relative;
     display:inline-block;
-    color:#007bff!important;
+    color:#eba830!important;
     text-transform:uppercase;
     font-weight:700;
     margin:0 15px;
@@ -937,7 +937,7 @@ strong{
     left:0;
     width:100%;
     height:1px;
-    background:#007bff;
+    background:#eba830;
     content:'';
     opacity:0;
     -webkit-transition:height .3s,opacity .3s,-webkit-transform .3s;
@@ -1002,7 +1002,7 @@ strong{
     top:25px;
     left:30px;
     font-weight:700;
-    color:#007bff;
+    color:#eba830;
     font-size:1.5rem
 }
 @media screen and (max-width:480px){
@@ -1031,7 +1031,7 @@ strong{
 }
 .not-found a{
     font-weight:700;
-    color:#007bff!important;
+    color:#eba830!important;
     position:relative;
     display:inline-block
 }
@@ -1041,7 +1041,7 @@ strong{
     left:0;
     width:100%;
     height:3px;
-    background:#007bff;
+    background:#eba830;
     content:'';
     opacity:0;
     -webkit-transition:height .3s,opacity .3s,-webkit-transform .3s;
