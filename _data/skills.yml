@@ -5,7 +5,7 @@ languages:
   - item: R
   - item: SQL
   - item: HTML
-  - item: CSS/Sass
+  - item: CSS/SCSS
   - item: JavaScript
 
 frameworks:
