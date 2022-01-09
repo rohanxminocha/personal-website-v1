@@ -1,26 +1,27 @@
 - name: Cryptocurrency Trading Bot
   url: https://github.com/rohanxminocha/crypto-trading-bot
-  description: A Cryptocurrency Trading Bot to trade the ETH - CAD pair on the GDAX exchange through their API.
+  description: A bot developed to trade the Ethereum - CAD pair on the GDAX exchange through the API.
   used:
     - thing: R
-    - thing: VS Code
     - thing: rgdax
     - thing: mailR
     - thing: stringi
+    - thing: VS Code
 
 - name: Credit Card Fraud Detection System
   url: https://github.com/rohanxminocha/credit-card-fraud-detection
-  description: A Credit Card Fraud Detection System implemented using Machine Learning with the help of k-nearest neighbors algorithm and k-means clustering.
+  description: A data investigation model that identifies fraudulent transactions using Machine Learning.
   used:
     - thing: Python
-    - thing: VS Code
     - thing: pandas
     - thing: NumPy
     - thing: sklearn
+    - thing: Matplotlib
+    - thing: VS Code
 
 - name: Xpiry Trackr Application
   url: https://github.com/rohanxminocha/XpiryTrackr-yuHacks2021
-  description: An application that scans the product’s bar code, identifies what that product is and then scans the expiry date.
+  description: A full-stack application designed to keep track of products’ expiry and that sends reminders a week in advance.
   used:
     - thing: JavaScript
     - thing: React Native
@@ -28,7 +29,7 @@
 
 - name: Blogging Application
   url: https://github.com/rohanxminocha/blogging-application
-  description: A web app that allows people to add, update, and delete blog posts.
+  description: A full-stack web application that allows users to add, update, and delete blog posts.
   used:
     - thing: Flask
     - thing: HTML
@@ -36,4 +37,3 @@
     - thing: Jinja
     - thing: SQLAlchemy
     - thing: Bootstrap
-    
