@@ -8,4 +8,8 @@ const sync = require('./build/browsersync');
   task(gulp);
 });
 
+gulp.task('jekyll', function (){
+    spawn('jekyll.bat', ['build'], {stdio: 'inherit'});
+});
+
 gulp.task('build', gulp.series(['sass', 'scripts', 'images', 'jekyll-build']));
