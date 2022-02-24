@@ -1,29 +1,36 @@
 languages:
   - item: Python
+  - item: Go
   - item: C/C++
-  - item: Java
-  - item: R
   - item: SQL
-  - item: HTML
-  - item: CSS/SCSS
+  - item: HTML/CSS/SCSS
+  - item: R
+  - item: Swift
   - item: JavaScript
+  - item: Java
+  - item: Bash
 
 frameworks:
   - item: Django
-  - item: React
   - item: Flask
+  - item: React Native
   - item: Bootstrap
   
 tools:
-  - item: Bash
-  - item: Git & Github
+  - item: MySQL
   - item: MongoDB
+  - item: VMware
+  - item: Git/Github
+  - item: Linux
+  - item: AWS
+  - item: Axure
   - item: Jupyter Notebook
  
 libraries:
   - item: pandas
   - item: NumPy
   - item: Matplotlib
+  - item: ReactJS
   - item: scikit-learn
   - item: rgdax
   - item: mailR
