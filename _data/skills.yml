@@ -1,6 +1,6 @@
 languages:
   - item: Python
-  - item: Go
+  - item: Golang
   - item: C/C++
   - item: SQL
   - item: HTML/CSS/SCSS
