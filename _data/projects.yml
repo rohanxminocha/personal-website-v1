@@ -19,7 +19,7 @@
     - thing: Matplotlib
     - thing: VS Code
 
-- name: Xpiry Trackr Application
+- name: Expiry Tracker Application
   url: https://github.com/rohanxminocha/XpiryTrackr-yuHacks2021
   description: A full-stack application designed to keep track of products’ expiry and that sends reminders a week in advance.
   used:
