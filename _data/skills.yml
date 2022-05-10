@@ -23,7 +23,7 @@ tools:
   - item: Git/Github
   - item: Linux
   - item: AWS
-  - item: Axure
+  - item: Azure
   - item: Jupyter Notebook
  
 libraries:
@@ -32,7 +32,4 @@ libraries:
   - item: Matplotlib
   - item: ReactJS
   - item: scikit-learn
-  - item: rgdax
-  - item: mailR
-  - item: stringi
  
