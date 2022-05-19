@@ -7,7 +7,7 @@ baseurl: ""
 email: rminocha@uwaterloo.ca
 cover: https://rminocha.com/img/og.png
 logo: https://rminocha.com/img/emojis/man_technologist.png
-resume: https://rminocha.com/resumes/resume_external.pdf
+resume: https://rminocha.com/resume_external.pdf
 social:
   - title: email
     url: mailto:rminocha@uwaterloo.ca
