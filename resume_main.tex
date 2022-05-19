@@ -1,0 +1,233 @@
+%-------------------------
+% Resume in Latex
+% Modified by: Rohan Minocha
+% Based off of: https://github.com/sb2nov/resume and 
+%               https://www.overleaf.com/latex/templates/your-new-cv/xqzhcmqkqrtw
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{amsmath}
+\setlength{\multicolsep}{-30pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{myBlue}{RGB}{25, 80, 144}
+
+\usepackage[OT1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.4in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{colour2}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\MyName}[1]{
+  \Huge 
+  \usefont{OT1}{phv}{b}{n}
+  \begin{center} #1 \end{center}
+  \par \normalsize \normalfont
+}
+\newcommand{\NewPart}[1]{
+  \vspace{-5mm}\section*{\large \uppercase{#1}}\vspace{-1mm}
+}
+\newcommand{\SkillsEntry}[2]{
+  \noindent\baselineskip=14pt\hangindent=0em\hangafter=0
+  \makebox[1.75cm][l]{
+  \bf{#1}}
+  \hspace{2em} #2 \par
+}
+\newcommand{\resumeItem}[1]{
+  \setlength{\itemindent}{-1.2em}
+  \item{
+    {\small#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  \textbf{\small#1} & {\small#2} \\
+  \textsl{\small#3} & \textsl{\small#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{1.001\textwidth}{l}
+  \textbf{\small#1} $|$ \textsl{\textcolor{myBlue}{\small #2}} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{
+  \begin{itemize}[leftmargin=0.0in, label={}]
+}
+\newcommand{\resumeSubHeadingListEnd}{
+  \end{itemize}
+}
+\newcommand{\resumeItemListStart}{
+  \begin{itemize}
+}
+\newcommand{\resumeItemListEnd}{
+  \end{itemize}\vspace{-5pt}
+}
+
+\begin{document}
+
+%----------HEADING----------
+\MyName{\textcolor{myBlue}{Rohan Minocha}} \\
+\vspace{-8pt}
+{\hfill 
+  \href{mailto:rminocha@uwaterloo.ca}{rminocha@uwaterloo.ca} $|$
+  \href{https://www.rminocha.com}{www.rminocha.com} $|$ 
+  \href{https://linkedin.com/in/rohanminocha}{linkedin.com/in/rohanminocha} $|$
+  \href{https://github.com/rohanxminocha}{github.com/rohanminocha}
+\hfill}
+\vspace{-4pt}
+
+%-----------TECHNICAL SKILLS-----------
+\textcolor{myBlue}{\NewPart{TECHNICAL SKILLS}}
+
+\vspace{2pt}
+\normalsize
+  \SkillsEntry{Languages}{Python, Go, C/C++, SQL, HTML/CSS, R, Swift, JavaScript, Java, Bash}
+  \SkillsEntry{Libraries}{Pandas, NumPy, Matplotlib, ReactJS, Scikit-learn}
+  \SkillsEntry{Technologies}{Git, Docker, Kubernetes, AWS, MongoDB, Django, Flask, React Native, NodeJS}
+\vspace{10pt}
+
+%-----------EXPERIENCE-----------
+\textcolor{myBlue}{\NewPart{EXPERIENCE}}
+
+\vspace{2pt}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {{\href{https://www.electrosource.com/}{Electro Source}} $|$ {\textcolor{myBlue}{\small \textnormal{\textsl {React Native, NodeJS, MongoDB, Kubernetes, Redis, Docker, AWS}}}}}
+  {May 2022 -- Present}
+  {\textsl{Software Engineering Intern}}{\textsl{Toronto, ON}}
+
+  \resumeSubheading
+  {{\href{https://www.elekta.com/}{Elekta}} $|$ {\textcolor{myBlue}{\small\textnormal{\textsl {Java, JavaScript, XML, SQL, Azure, Apache Tomcat, VMware}}}}}
+  {Sep 2021 -- Dec 2021}
+  {\textsl{Software Developer Intern}}{\textsl{Toronto, ON}}
+  \resumeItemListStart
+    \vspace{-6pt}
+    \resumeItem{Improved stability of machine QA software across multiple browsers using Java and VMware by \textbf{\textcolor{myBlue}{developing UI test plans}}}
+    \resumeItem{\textbf{\textcolor{myBlue}{Optimized software license generation by 15x}} by creating a standardized tool which \textbf{\textcolor{myBlue}{dropped team costs by 5\%}}}
+    \resumeItem{Secured build with CI/CD pipeline to \textbf{\textcolor{myBlue}{increase accuracy to 99\%}} and setup emulator VMs for automated linear accelerators}
+    \resumeItem{Automated monitoring system using Azure Budgets API, Postman, and PowerShell for strategic marketing to demo users}
+    \resumeItem{Addressed over \textbf{\textcolor{myBlue}{20 vulnerabilities}} by  analyzing cyber security vulnerability reports adhering to OWASP recommendations}
+  \resumeItemListEnd
+
+  \resumeSubheading
+  {{\href{https://www.faipskuwait.com/}{Delhi Public School}} $|$ {\textcolor{myBlue}{\small \textnormal{\textsl {Swift, SwiftUI, Appcelerator, IBM Cloud}}}}}
+  {Sep 2018 -- Jun 2019}
+  {\textsl{Software Engineering Intern}}{KW}
+  \resumeItemListStart
+    \vspace{-6pt}
+    \resumeItem{Designed a full-stack iOS application for sharing recorded lectures in real-time, with an added in-app note-taking functionality}
+    \resumeItem{Created the app using Swift and SwiftUI, and received over \textbf{\textcolor{myBlue}{6K downloads on App Store}} with a \textbf{\textcolor{myBlue}{3.0 monthly traffic}}}
+    \resumeItem{Initiated refactoring of app codebase to support and organized implementation of additional features and updates}
+    \resumeItem{Built upon a \textbf{\textcolor{myBlue}{multi-tier architecture}}, and implemented wireframes and designs for technical feasibility to improve user experience }
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-32pt}
+
+%-----------PROJECTS-----------
+\textcolor{myBlue}{\NewPart{PROJECTS}}
+
+\vspace{-2pt}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+  {{\href{https://github.com/rohanxminocha/credisafe}{CrediSafe}}
+  {\href{https://github.com/rohanxminocha/credisafe}{\faGithub}}}{Python, Pandas, NumPy, Matplotlib}
+  \resumeItemListStart
+    \vspace{-14pt}
+    \resumeItem{Built a data investigation model that identifies fraudulent transactions using k-nearest neighbors and k-means clustering}
+    \resumeItem{Implemented data cleaning, data visualization, and confusion matrix to detect fraudulent transactions with \textbf{\textcolor{myBlue}{99\% accuracy}}}
+    \resumeItem{Trained the model on data from over \textbf{\textcolor{myBlue}{280K}} credit card transactions that detected all 492 frauds within \textbf{\textcolor{myBlue}{26 seconds}}}
+    \resumeItemListEnd
+  \vspace{-18pt}
+
+  \resumeProjectHeading
+  {\textbf{\href{https://github.com/rohanxminocha/crypto-booster}{Crypto Booster}}
+  {\href{https://github.com/rohanxminocha/crypto-booster}{\faGithub}}}{R, RStudio}
+  \resumeItemListStart
+    \vspace{-14pt}
+    \resumeItem{Developed a cryptocurrency trading bot to trade the ETH - CAD pair on the GDAX exchange through the Coinbase Pro API}
+    \resumeItem{Implemented a combination of \textbf{\textcolor{myBlue}{Relative Strength Index (RSI)}} indicators that suggest a momentarily oversold market}
+    \resumeItem{Built an algorithm to automatically buy ETH based on current available account balance, and notify user of buy action via email}
+    \resumeItemListEnd 
+  \vspace{-18pt}
+
+  \resumeProjectHeading
+  {\textbf{\href{https://github.com/rohanxminocha/ExpiryTracker-yuHacks2021}{Expiry Tracker Application}}
+  {\href{https://github.com/rohanxminocha/ExpiryTracker-yuHacks2021}{\faGithub}}}{JavaScript, React Native, Figma}
+  \resumeItemListStart
+    \vspace{-14pt}
+    \resumeItem{Designed a full-stack application that keeps track of products' expiry and sends reminder notifications a week in-advance}
+    \resumeItem{Created a bar code scanner that identifies the scanned product and automatically proceeds to scan the expiry date}
+    \resumeItem{Implemented an algorithm to make the  bar code scanner cycle through user flow by utilizing the device's physical buttons}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-16pt} 
+
+%-----------VOLUNTEERING-----------
+\textcolor{myBlue}{\NewPart{VOLUNTERRING}}
+
+\resumeSubHeadingListStart
+  \small{\textbf{Mentor $|$} \textsl{\small{{\href{https://hackthenorth.com/}{Hack the North'21}}, {\href{https://uofthacks.com/}{UofT Hacks IX}}, {\href{https://hackthevalley.io/}{Hack the Valley'21}}, \href{https://csclub.uwaterloo.ca/}{UW Computer Science Club}}}} \hfill \small {Sep 2021 -- Feb 2022}
+  \resumeItemListEnd
+  \vspace{-2pt}
+  \small{\textbf{Assistant Teacher $|$} \textsl{\small{Dr. Ruhi Foundation School}}} \hfill \small{Jun 2019 -- Aug 2019}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{16pt}
+
+%-----------EDUCATION-----------
+\textcolor{myBlue}{\NewPart{EDUCATION}}
+
+\vspace{2pt}
+\textbf{\normalsize{University of Waterloo}} \hfill {\small{Sep 2020 -- Apr 2025}} \\
+\vspace{1pt}
+\textsl{\small{Bachelor of Computer Science (Honours)} \hfill \small{Waterloo, ON}}
+\begin{itemize}
+\vspace{2pt}
+\setlength{\itemindent}{-1.7em}
+  \item[{$\vcenter{\hbox{\tiny$\bullet$}}$}]{\textbf{Awards: }President's Scholarship of Distinction}
+\vspace{-8pt}
+  \item[{$\vcenter{\hbox{\tiny$\bullet$}}$}]{\textbf{Relevant Coursework: }Foundations of Sequential Programs, Computer Organization and Design}
+\end{itemize}
+\vspace{-16pt}
+
+\end{document}
