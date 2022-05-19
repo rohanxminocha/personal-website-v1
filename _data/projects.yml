@@ -1,7 +1,7 @@
 
 - name: CrediSafe
   url: https://github.com/rohanxminocha/credisafe
-  description: A data investigation model that identifies fraudulent transactions using machine learning
+  description: A data investigation model that identifies fraudulent transactions using Machine Learning
   used:
     - thing: Python
     - thing: Pandas
