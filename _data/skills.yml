@@ -1,9 +1,10 @@
 languages:
   - item: Python
-  - item: Golang
+  - item: Go
   - item: C/C++
   - item: SQL
   - item: HTML/CSS/SCSS
+  - item: XML
   - item: R
   - item: Swift
   - item: JavaScript
@@ -13,23 +14,26 @@ languages:
 frameworks:
   - item: Django
   - item: Flask
-  - item: React Native
   - item: Bootstrap
+  - item: React Native
   
 tools:
-  - item: MySQL
-  - item: MongoDB
-  - item: VMware
-  - item: Git/Github
-  - item: Linux
   - item: AWS
   - item: Azure
+  - item: Linux
+  - item: Redis
+  - item: NodeJS
+  - item: Docker
+  - item: MongoDB
+  - item: VMware
+  - item: Kubernetes
+  - item: Git/GitHub
   - item: Jupyter Notebook
  
 libraries:
-  - item: pandas
+  - item: Pandas
   - item: NumPy
   - item: Matplotlib
   - item: ReactJS
-  - item: scikit-learn
+  - item: Scikit-learn
  
