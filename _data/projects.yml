@@ -1,39 +1,24 @@
-- name: Cryptocurrency Trading Bot
-  url: https://github.com/rohanxminocha/crypto-trading-bot
-  description: A bot developed to trade the Ethereum - CAD pair on the GDAX exchange through the API.
-  used:
-    - thing: R
-    - thing: rgdax
-    - thing: mailR
-    - thing: stringi
-    - thing: VS Code
 
-- name: Credit Card Fraud Detection System
-  url: https://github.com/rohanxminocha/credit-card-fraud-detection
-  description: A data investigation model that identifies fraudulent transactions using Machine Learning.
+- name: CrediSafe
+  url: https://github.com/rohanxminocha/credisafe
+  description: A data investigation model that identifies fraudulent transactions using machine learning
   used:
     - thing: Python
-    - thing: pandas
+    - thing: Pandas
     - thing: NumPy
-    - thing: sklearn
     - thing: Matplotlib
-    - thing: VS Code
+
+- name: Crypto Booster
+  url: https://github.com/rohanxminocha/crypto-booster
+  description: A cryptocurrency trading bot to trade the ETH - CAD pair on the GDAX exchange through the Coinbase Pro API
+  used:
+    - thing: R
+    - thing: RStudio
 
 - name: Expiry Tracker Application
-  url: https://github.com/rohanxminocha/XpiryTrackr-yuHacks2021
-  description: A full-stack application designed to keep track of products’ expiry and that sends reminders a week in advance.
+  url: https://github.com/rohanxminocha/ExpiryTracker-yuHacks2021
+  description: A full-stack application that keeps track of products' expiry and sends reminder notifications a week in-advance
   used:
     - thing: JavaScript
     - thing: React Native
-    - thing: VS Code
-
-- name: Blogging Application
-  url: https://github.com/rohanxminocha/blogging-application
-  description: A full-stack web application that allows users to add, update, and delete blog posts.
-  used:
-    - thing: Flask
-    - thing: HTML
-    - thing: CSS
-    - thing: Jinja
-    - thing: SQLAlchemy
-    - thing: Bootstrap
+    - thing: Figma
