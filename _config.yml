@@ -2,12 +2,12 @@
 name: Rohan Minocha
 title: Rohan Minocha
 description: student, developer, aspiring change-maker
-url: https://rminocha.com/
+url: https://rohanminocha.me/
 baseurl: ""
 email: rminocha@uwaterloo.ca
-cover: https://rminocha.com/img/og.png
-logo: https://rminocha.com/img/emojis/man_technologist.png
-resume: https://rminocha.com/resume_external.pdf
+cover: https://rohanminocha.me/img/og.png
+logo: https://rohanminocha.me/img/emojis/man_technologist.png
+resume: https://rohanminocha.me/resume_external.pdf
 social:
   - title: email
     url: mailto:rminocha@uwaterloo.ca
