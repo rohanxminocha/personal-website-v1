@@ -15,7 +15,7 @@ frameworks:
   - item: React Native
   - item: Node
   - item: Express
-  - item: FlasK
+  - item: Flask
   
 tools:
   - item: MongoDB
