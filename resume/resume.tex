@@ -1,0 +1,265 @@
+%-------------------------
+% Resume in Latex
+% Modified by: Rohan Minocha
+% Based off of: https://github.com/sb2nov/resume and 
+%               https://www.overleaf.com/latex/templates/your-new-cv/xqzhcmqkqrtw
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{comment}
+\setlength{\multicolsep}{-30pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{myBlue}{RGB}{25, 80, 144}
+
+\usepackage[OT1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.4in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{colour2}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\MyName}[1]{
+  \Huge 
+  \usefont{OT1}{phv}{b}{n}
+  \begin{center} #1 \end{center}
+  \par \normalsize \normalfont
+}
+\newcommand{\NewPart}[1]{
+  \vspace{-5mm}\section*{\large \uppercase{#1}}\vspace{-1mm}
+}
+\newcommand{\SkillsEntry}[2]{
+  \noindent\baselineskip=14pt\hangindent=0em\hangafter=0
+  \makebox[1.75cm][l]{
+  \bf{#1}}
+  \hspace{2em} #2 \par
+}
+\newcommand{\resumeItem}[1]{
+  \setlength{\itemindent}{-1.2em}
+  \item{
+    {\small#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  \textbf{#1} & {\small#2} \\
+  \textsl{\small#3} & \textsl{\small#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{1.001\textwidth}{l}
+  \textbf{\small#1} $|$ \textsl{\textcolor{myBlue}{\small #2}} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{
+  \begin{itemize}[leftmargin=0.0in, label={}]
+}
+\newcommand{\resumeSubHeadingListEnd}{
+  \end{itemize}
+}
+\newcommand{\resumeItemListStart}{
+  \begin{itemize}
+}
+\newcommand{\resumeItemListEnd}{
+  \end{itemize}\vspace{-5pt}
+}
+
+\begin{document}
+
+%----------HEADING----------
+\MyName{\textcolor{myBlue}{\href{https://www.rohanminocha.me}{Rohan Minocha}}} \\
+\vspace{-8pt}
+{\hfill 
+  \href{mailto:mail@rminocha.com}{mail@rminocha.com} $|$
+  \href{https://www.rohanminocha.me}{rohanminocha.me} $|$ 
+  \href{https://linkedin.com/in/rohanminocha}{linkedin.com/in/rohanminocha} $|$
+  \href{https://github.com/rohanxminocha}{github.com/rohanminocha}
+\hfill}
+\vspace{-4pt}
+
+%-----------EDUCATION-----------
+\textcolor{myBlue}{\NewPart{EDUCATION}}
+
+\vspace{2pt}
+\textbf{\normalsize{University of Waterloo}} \hfill {\small{Sep 2020 -- Apr 2025}} \\
+\vspace{1pt}
+\small\textsl{Candidate for BCS: Bachelor of Computer Science}
+
+\vspace{2pt}
+
+\begin{itemize}
+  \small
+    \setlength{\itemindent}{-1.7em}
+      \item[{$\vcenter{\hbox{\tiny$\bullet$}}$}]{\textbf{Relevant Courses: }Object Oriented Programming, Data Structures \& Algorithms, Foundations of Sequential Programs}
+\end{itemize}
+
+\vspace{-14pt}
+
+%-----------SKILLS-----------
+\textcolor{myBlue}{\NewPart{SKILLS}}
+
+\vspace{2pt}
+
+\normalsize
+  \SkillsEntry{Languages}{Python, Golang, JavaScript, C/C++, SQL, HTML/CSS, R, Swift, Java, Scheme}
+  \SkillsEntry{Frameworks}{Django, React Native, Node, Express, Flask, Pandas, NumPy}
+  \SkillsEntry{Tools}{MongoDB, PostgreSQL, Git, Docker, Kubernetes, AWS, Redis}
+\vspace{10pt}
+
+%-----------EXPERIENCE-----------
+\textcolor{myBlue}{\NewPart{EXPERIENCE}}
+
+\vspace{2pt}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {{\href{https://www.electrosource.com/}{Electro Source Inc}}}
+  {May 2022 -- Aug 2022}
+  {\textsl{Software Developer Intern}}{\textsl{Toronto, ON}}
+  \resumeItemListStart
+    \vspace{-6pt}
+    \resumeItem{Improved app security by addressing \textbf{\textcolor{myBlue}{over 25 vulnerabilities}} in \textbf{\textcolor{myBlue}{React Native}} by analyzing \href{https://owasp.org/www-project-top-ten/}{OWASP Top 10 reports}}
+    
+    \resumeItem{Optimized app performance by creating \textbf{\textcolor{myBlue}{Docker}} container to deploy \textbf{\textcolor{myBlue}{Redis}} in-memory cache instance for real-time analytics}
+    
+    \resumeItem{Implemented \textbf{\textcolor{myBlue}{REST APIs}} to fetch user data from \textbf{\textcolor{myBlue}{MongoDB}} and reduced API calls by \textbf{\textcolor{myBlue}{30\%}} when creating new accounts}
+  
+    \resumeItem{Reduced manual testing load by \textbf{\textcolor{myBlue}{10\%}} by creating automated test cases to ensure notifications and error headers validity}
+    
+    \resumeItem{Designed Calendar UI using \textbf{\textcolor{myBlue}{Figma}} and developed test plans for UI testing to improve app stability for \textbf{\textcolor{myBlue}{TestFlight}} release}
+  \resumeItemListEnd
+
+  \resumeSubheading
+  {{\href{https://www.elekta.com/}{Elekta}}}
+  {Sep 2021 -- Dec 2021}
+  {\textsl{Software Developer Intern}}{\textsl{Toronto, ON}}
+  \resumeItemListStart
+    \vspace{-6pt}
+    \resumeItem{\textbf{\textcolor{myBlue}{Optimized software license build by 20x}} by creating standardized tool in \textbf{\textcolor{myBlue}{Java}} which \textbf{\textcolor{myBlue}{dropped team costs by 12.5\%}}}
+    
+    \resumeItem{Secured build with CI/CD pipeline to \textbf{\textcolor{myBlue}{increase accuracy to 99\%}} and setup emulator VMs for automated linear accelerators}
+    
+    \resumeItem{Automated monitoring system using Azure Budgets API, Postman, \& PowerShell for strategic product marketing to demo users}
+  \resumeItemListEnd
+
+  \resumeSubheading
+  {{\href{https://www.faipskuwait.com/}{Delhi Public School}}}
+  {Sep 2018 -- Jun 2019}
+  {\textsl{Software Engineering Intern}}{KW}
+  \resumeItemListStart
+    \vspace{-6pt}
+    \resumeItem{Designed a full-stack iOS application for sharing recorded lectures in real-time, with an in-app note-taking functionality}
+    
+    \resumeItem{Created mobile app using \textbf{\textcolor{myBlue}{Swift}} and \textbf{\textcolor{myBlue}{SwiftUI}} and received \textbf{\textcolor{myBlue}{over 6K downloads on App Store}} with a \textbf{\textcolor{myBlue}{3.0 monthly traffic}}}
+    
+    \resumeItem{Built upon a \textbf{\textcolor{myBlue}{multi-tier architecture}}, and implemented wireframes and designs for technical feasibility to improve user experience }
+    \resumeItemListEnd
+    
+\resumeSubHeadingListEnd
+\vspace{-32pt}
+
+%-----------PROJECTS-----------
+\textcolor{myBlue}{\NewPart{PROJECTS}}
+
+\vspace{-2pt}
+\resumeSubHeadingListStart
+  
+  \resumeProjectHeading
+  {{\href{https://github.com/rohanxminocha/credisafe}{CrediSafe}}
+  {\href{https://github.com/rohanxminocha/credisafe}{\faGithub}}}
+  {Python, Pandas, NumPy, Matplotlib}
+  \resumeItemListStart
+    \vspace{-14pt}
+    \resumeItem{Built a data investigation model that identifies fraudulent transactions using K-Nearest Neighbors and K-Means Clustering}
+    
+    \resumeItem{Implemented data cleaning, data visualization, and confusion matrix to detect fraudulent transactions with \textbf{\textcolor{myBlue}{99\% accuracy}}}
+    
+    \resumeItem{Trained the model on data from \textbf{\textcolor{myBlue}{over 280K}} credit card transactions that detected all 492 frauds within \textbf{\textcolor{myBlue}{26 seconds}}}
+    \resumeItemListEnd
+  \vspace{-18pt}
+
+  \resumeProjectHeading
+  {\textbf{\href{https://github.com/rohanxminocha/crypto-booster}{Crypto Booster}}
+  {\href{https://github.com/rohanxminocha/crypto-booster}{\faGithub}}}
+  {R, RStudio}
+  \resumeItemListStart
+    \vspace{-14pt}
+    \resumeItem{Developed a cryptocurrency trading bot to trade the ETH - CAD pair on the GDAX exchange through the Coinbase Pro API}
+    
+    \resumeItem{Implemented a combination of \textbf{\textcolor{myBlue}{Relative Strength Index (RSI)}} indicators that suggest a momentarily oversold market}
+    
+    \resumeItem{Built an algorithm to automatically buy ETH based on current available account balance, and notify user of buy action via email}
+    \resumeItemListEnd 
+  \vspace{-18pt}
+
+  \resumeProjectHeading
+  {\textbf{\href{https://github.com/rohanxminocha/ExpiryTracker-yuHacks2021}{Expiry Tracker Application}}
+  {\href{https://github.com/rohanxminocha/ExpiryTracker-yuHacks2021}{\faGithub}}}
+  {JavaScript, React Native, Figma}
+  
+  \resumeItemListStart
+    \vspace{-14pt}
+    \resumeItem{Designed a full-stack application that keeps track of products' expiry and sends reminder notifications a week in-advance}
+    
+    \resumeItem{Created a bar code scanner that identifies the scanned product and automatically proceeds to scan the expiry date}
+  \resumeItemListEnd
+  
+\resumeSubHeadingListEnd
+\vspace{-15pt} 
+
+%-----------INTERESTS-----------
+\textcolor{myBlue}{\NewPart{INTERESTS}}
+\vspace{4pt}
+
+    \normalsize{\textbf{Software Developer} $|$
+    {\textnormal{\textsl{\href{https://www.uwpath.com/}{UWPath}}}}} \hfill \small{Sep 2022 -- Present}
+    \vspace{4pt}
+     
+    \normalsize{\textbf{Hackathon Judge} $|$
+    {\textnormal{\textsl{\href{https://www.tohacks.ca/}{TOHacks'22}}}}} \hfill \small{May 2022}
+    \vspace{4pt}
+    
+    \normalsize{\textbf{Mentor}  $|$ {\textnormal{\textsl{{\href{https://hackthenorth.com/}{Hack the North'21}}, {\href{https://uofthacks.com/}{UofT Hacks IX}}, {\href{https://hackthevalley.io/}{Hack the Valley'21}}, \href{https://csclub.uwaterloo.ca/}{UW Computer Science Club}}}}} \hfill \small{Sep 2021 -- Feb 2022}
+ 
+\resumeSubHeadingListEnd
+\vspace{10pt}
+
+\end{document}
