@@ -1,9 +1,9 @@
 languages:
   - item: Python
   - item: Golang
+  - item: SQL
   - item: JavaScript
   - item: C/C++
-  - item: SQL
   - item: HTML/CSS
   - item: R
   - item: Swift
