@@ -1,7 +1,17 @@
 
+- name: Crypto Logix
+  url: https://github.com/rohanxminocha/crypto-logix
+  description: A web app to display real-time crypto statistics from multiple sources using Rapid API and Bing Search API
+  used:
+    - thing: React
+    - thing: Redux
+    - thing: ChartJS
+    - thing: REST APIs
+    - thing: Ant Design
+    
 - name: CrediSafe
   url: https://github.com/rohanxminocha/credisafe
-  description: A data investigation model that identifies fraudulent transactions using Machine Learning
+  description: A data investigation model for over 280K transactions in 26 seconds using K-Nearest Neighbors and K-Means Clustering
   used:
     - thing: Python
     - thing: Pandas
@@ -10,14 +20,14 @@
 
 - name: Crypto Booster
   url: https://github.com/rohanxminocha/crypto-booster
-  description: A cryptocurrency trading bot to trade the ETH - CAD pair on the GDAX exchange through the Coinbase Pro API
+  description: A cryptocurrency trading bot to trade ETH - CAD pair on GDAX exchange through Coinbase Pro API based on available account balance
   used:
     - thing: R
     - thing: RStudio
 
 - name: Expiry Tracker Application
   url: https://github.com/rohanxminocha/ExpiryTracker-yuHacks2021
-  description: A full-stack application that keeps track of products' expiry and sends reminder notifications a week in-advance
+  description: A full-stack application that keeps track of products' expiry and sends reminder notifications week in-advance
   used:
     - thing: JavaScript
     - thing: React Native
