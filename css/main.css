@@ -954,7 +954,7 @@ strong{
     display:inline;
     letter-spacing:1px
 }
-@media screen and (max-width:850px){
+@media screen and (max-width:1024px){
     .contact__links a .text{
         display:none
     }
@@ -963,7 +963,7 @@ strong{
     display:none;
     width:22px
 }
-@media screen and (max-width:850px){
+@media screen and (max-width:1024px){
     .contact__links img{
         display:inline-block
     }
@@ -1118,3 +1118,4 @@ strong{
     -webkit-transform:translateY(-5px);
     transform:translateY(-5px)
 }
+ 
